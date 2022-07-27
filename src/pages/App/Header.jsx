@@ -68,15 +68,27 @@ function Header() {
         </Box>
         {mobile ? <MenuMobile /> : <MyMenu />}
       </Box>
-      <Container maxW="100%" padding="0" display="flex" alignItems="center">
-        <Box display="flex" flexDir="column" maxWidth="509px" w="42%">
+      <Container
+        maxW="100%"
+        padding="0"
+        display="flex"
+        alignItems="center"
+        flexDirection={["column", "column", "row"]}
+      >
+        <Box
+          display="flex"
+          flexDir="column"
+          maxWidth="509px"
+          w={["70%", "75%", "50%"]}
+          marginBottom={["15px", "25px", "0"]}
+        >
           <Heading
             as="h1"
             fontWeight="700"
-            fontSize={["20px", "30px", "35px", "35px", "48px", "48px"]}
-            lineHeight="64px"
+            fontSize={["3xl", "3xl", "3xl", "3xl", "48px"]}
+            lineHeight={["3xl", "3xl", "3xl", "3xl", "64px"]}
             color="white"
-            mb="30px"
+            mb={["10px", "20px", "5px", "30px"]}
           >
             <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
               Lorem Ipsum is simply dummy text of the printin text lorem
@@ -84,8 +96,8 @@ function Header() {
           </Heading>
           <Text
             fontWeight="700"
-            fontSize="24px"
-            lineHeight="29px"
+            fontSize={["xl", "xl", "xl", "xl", "24px"]}
+            lineHeight={["xl", "xl", "xl", "xl", "29px"]}
             bg="#FE5996"
             color="white"
             width="max-content"
@@ -95,11 +107,12 @@ function Header() {
           </Text>
         </Box>
         <Box
-          ml={["50px", "50px", "60px", "100px", "300px", "400px"]}
+          ml={["0", "0", "60px", "100px", "300px", "400px"]}
           bg="#754DD0"
           borderRadius="45px"
-          w="385px"
-          h="473px"
+          maxW={["250px", "250px", "unset"]}
+          w={("250px", "250px", "385px")}
+          h={["235px", "235px", "308px", "308px", "473px"]}
           position="relative"
           display="grid"
           placeItems="center"
@@ -108,9 +121,9 @@ function Header() {
             src="../../public/img/woman.png"
             alt="Woman"
             position="absolute"
-            maxW={["50px", "80px", "100px", "400px", "400px", "627px"]}
-            h="456px"
-            top="39px"
+            maxW={["300px", "300px", "400px", "400px", "627px"]}
+            h={["218px", "218px", "291px", "291px", "456px"]}
+            top={["0px", "32px", "39px"]}
           />
         </Box>
       </Container>
@@ -126,11 +139,11 @@ function Header() {
         borderRadius="13px"
         alignItems="center"
         flexDir={["column", "column", "row"]}
-        maxW={["250px", "400px", "650px", "892px"]}
+        maxW={["290px", "400px", "650px", "892px"]}
         position="absolute"
         right="50%"
         transform="translate(50%)"
-        bottom="-160px"
+        bottom={["-460px", "-400px", "-215px", "-220px", "-160px"]}
         zIndex="2"
       >
         <BoxContent
@@ -138,22 +151,26 @@ function Header() {
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         />
         <Divider
-          orientation="vertical"
+          orientation={["horizontal", "horizontal", "vertical"]}
           borderColor="#5F40A6"
-          height="150px"
-          opacity="1"
-          margin="0 40px"
+          height={["1px", "1px", "150px"]}
+          width={["90%", "90%", "1px"]}
+          bg="#5F40A6"
+          opacity=".6"
+          margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
           title="Lorem"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         />
         <Divider
-          orientation="vertical"
+          orientation={["horizontal", "horizontal", "vertical"]}
           borderColor="#5F40A6"
-          height="150px"
-          opacity="1"
-          margin="0 40px"
+          height={["1px", "1px", "150px"]}
+          width={["90%", "90%", "1px"]}
+          bg="#5F40A6"
+          opacity=".6"
+          margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
           title="Lorem"
