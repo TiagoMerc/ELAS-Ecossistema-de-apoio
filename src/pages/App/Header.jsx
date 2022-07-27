@@ -107,7 +107,7 @@ function Header() {
           </Text>
         </Box>
         <Box
-          ml={["0", "0", "60px", "100px", "300px", "400px"]}
+          ml={["0", "0", "60px", "100px", "180px", "400px"]}
           bg="#754DD0"
           borderRadius="45px"
           maxW={["250px", "250px", "unset"]}
@@ -178,8 +178,9 @@ function Header() {
         />
       </Container>
       <Box
+        display={["none", "none", "none", "none", "block"]}
         position="absolute"
-        left="-10px"
+        left="-25px"
         bottom="-50px"
         zIndex="-1"
         w="100vw"
