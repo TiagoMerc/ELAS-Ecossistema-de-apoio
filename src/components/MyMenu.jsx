@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 
-function Menu() {
+function MyMenu() {
   const pages = [
     { title: "Início", link: "#", first: true, special: true },
     { title: "Quem Somos", link: "#" },
@@ -30,4 +30,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default MyMenu;

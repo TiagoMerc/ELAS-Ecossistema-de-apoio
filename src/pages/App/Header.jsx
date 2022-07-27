@@ -6,16 +6,27 @@ import {
   Highlight,
   Image,
   Text,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
-import Menu from "../../components/Menu";
+import MenuMobile from "../../components/MenuMobile";
+import MyMenu from "../../components/MyMenu";
 import BoxContent from "./BoxContent";
 
 function Header() {
+  const mobile = useBreakpointValue({
+    base: true,
+    sm: true,
+    md: false,
+    lg: false,
+    xl: false,
+    "2xl": false,
+  });
+
   return (
     <Container
       as="header"
-      padding="10px 130px"
+      padding={["10px 10px", "10px 30px", "10px 80px", "10px 130px"]}
       maxW="100vw"
       display="flex"
       flexDir="column"
@@ -55,14 +66,14 @@ function Header() {
             </Text>
           </Box>
         </Box>
-        <Menu />
+        {mobile ? <MenuMobile /> : <MyMenu />}
       </Box>
       <Container maxW="100%" padding="0" display="flex" alignItems="center">
-        <Box display="flex" flexDir="column" maxWidth="509px">
+        <Box display="flex" flexDir="column" maxWidth="509px" w="42%">
           <Heading
             as="h1"
             fontWeight="700"
-            fontSize="48px"
+            fontSize={["20px", "30px", "35px", "35px", "48px", "48px"]}
             lineHeight="64px"
             color="white"
             mb="30px"
@@ -84,7 +95,7 @@ function Header() {
           </Text>
         </Box>
         <Box
-          ml="400px"
+          ml={["50px", "50px", "60px", "100px", "300px", "400px"]}
           bg="#754DD0"
           borderRadius="45px"
           w="385px"
@@ -97,7 +108,7 @@ function Header() {
             src="../../public/img/woman.png"
             alt="Woman"
             position="absolute"
-            maxW="627px"
+            maxW={["50px", "80px", "100px", "400px", "400px", "627px"]}
             h="456px"
             top="39px"
           />
@@ -106,10 +117,16 @@ function Header() {
       <Container
         display="flex"
         bg="#FAFAFA"
-        padding="50px 30px 35px 25px"
+        padding={[
+          "20px 10px 25px 15px",
+          "30px 15px 25px 20px",
+          "30px 20px 25px 20px",
+          "50px 30px 35px 25px",
+        ]}
         borderRadius="13px"
         alignItems="center"
-        maxW="892px"
+        flexDir={["column", "column", "row"]}
+        maxW={["250px", "400px", "650px", "892px"]}
         position="absolute"
         right="50%"
         transform="translate(50%)"
