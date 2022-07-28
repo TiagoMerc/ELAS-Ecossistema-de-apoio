@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Container, Heading, Image, Text } from "@chakra-ui/react";
+import imgoquee from "../../images/oquee.png";
 
 function Oquee() {
   return (
@@ -88,7 +89,7 @@ function Oquee() {
         </Text>
       </Box>
       <Image
-        src="../public/img/oquee.png"
+        src={imgoquee}
         alt="Woman"
         alignSelf={["center", "center", "center", "unset"]}
       />

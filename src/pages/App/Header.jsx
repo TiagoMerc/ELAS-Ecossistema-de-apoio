@@ -12,6 +12,8 @@ import React from "react";
 import MenuMobile from "../../components/MenuMobile";
 import MyMenu from "../../components/MyMenu";
 import BoxContent from "./BoxContent";
+import logo from "../../images/logo.svg";
+import woman from "../../images/woman.png";
 
 function Header() {
   const mobile = useBreakpointValue({
@@ -43,13 +45,7 @@ function Header() {
           alignItems="center"
           padding="30px 0"
         >
-          <Image
-            src="/../public/img/logo.svg"
-            alt="Logo"
-            w="51px"
-            h="54px"
-            mr="6.3px"
-          />
+          <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
           <Box>
             <Heading
               as="h2"
@@ -118,7 +114,7 @@ function Header() {
           placeItems="center"
         >
           <Image
-            src="../../public/img/woman.png"
+            src={woman}
             alt="Woman"
             position="absolute"
             maxW={["300px", "300px", "400px", "400px", "627px"]}

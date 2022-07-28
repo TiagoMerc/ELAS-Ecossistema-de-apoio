@@ -16,6 +16,7 @@ import {
   faWhatsapp,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import logo from "../images/logo.svg";
 
 function Footer() {
   return (
@@ -45,13 +46,7 @@ function Footer() {
             padding="0"
             mb="10px"
           >
-            <Image
-              src="/../public/img/logo.svg"
-              alt="Logo"
-              w="51px"
-              h="54px"
-              mr="6.3px"
-            />
+            <Image src={logo} alt="Logo" w="51px" h="54px" mr="6.3px" />
             <Box>
               <Heading
                 as="h2"
