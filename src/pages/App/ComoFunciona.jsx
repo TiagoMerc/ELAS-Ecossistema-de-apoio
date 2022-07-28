@@ -13,6 +13,7 @@ import {
 function ComoFunciona() {
   return (
     <Container
+      as="section"
       display="flex"
       flexDir="column"
       maxW="100vw"

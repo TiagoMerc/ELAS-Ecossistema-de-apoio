@@ -4,6 +4,7 @@ import { Box, Container, Heading, Image, Text } from "@chakra-ui/react";
 function Oquee() {
   return (
     <Container
+      as="section"
       mt={["50px", "50px", "50px", "150px"]}
       maxW="100vw"
       display="flex"

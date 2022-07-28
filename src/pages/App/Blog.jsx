@@ -5,6 +5,7 @@ import Artigo from "./Artigo";
 function Blog() {
   return (
     <Container
+      as="section"
       display="flex"
       flexDir="column"
       maxW="100vw"
