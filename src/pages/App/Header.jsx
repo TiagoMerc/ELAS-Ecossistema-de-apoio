@@ -44,7 +44,7 @@ function Header() {
           padding="30px 0"
         >
           <Image
-            src="/../../public/img/logo.svg"
+            src="/../public/img/logo.svg"
             alt="Logo"
             w="51px"
             h="54px"

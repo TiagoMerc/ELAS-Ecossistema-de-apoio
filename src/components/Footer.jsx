@@ -46,7 +46,7 @@ function Footer() {
             mb="10px"
           >
             <Image
-              src="/../../public/img/logo.svg"
+              src="/../public/img/logo.svg"
               alt="Logo"
               w="51px"
               h="54px"

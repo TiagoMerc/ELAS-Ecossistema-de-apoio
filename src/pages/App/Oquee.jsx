@@ -88,7 +88,7 @@ function Oquee() {
         </Text>
       </Box>
       <Image
-        src="../../../public/img/oquee.png"
+        src="../public/img/oquee.png"
         alt="Woman"
         alignSelf={["center", "center", "center", "unset"]}
       />

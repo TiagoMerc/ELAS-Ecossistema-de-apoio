@@ -41,7 +41,7 @@ function Blog() {
         rowGap="46px"
       >
         <Artigo
-          imagem="../../../public/img/artigodestaque.png"
+          imagem="../public/img/artigodestaque.png"
           title="Artigo destaque do blog"
           maxW="809px"
           gridRow="1/3"
@@ -50,7 +50,7 @@ function Blog() {
           destaque
         />
         <Artigo
-          imagem="../../../public/img/artigo2.png"
+          imagem="../public/img/artigo2.png"
           title="Artigo 2"
           w={["45%", "47%", "unset"]}
           maxW="331px"
@@ -59,7 +59,7 @@ function Blog() {
           alignSelf={["center", "center", "end"]}
         />
         <Artigo
-          imagem="../../../public/img/artigo3.png"
+          imagem="../public/img/artigo3.png"
           title="Artigo 3"
           w={["45%", "47%", "100%"]}
           maxW="331px"
