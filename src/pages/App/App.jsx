@@ -1,16 +1,17 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
 import Header from "./Header";
 import Blog from "./Blog";
 import Oquee from "./Oquee";
+import ComoFunciona from "./ComoFunciona";
 
 function App() {
   return (
-    <Box>
+    <>
       <Header />
       <Blog />
       <Oquee />
-    </Box>
+      <ComoFunciona />
+    </>
   );
 }
 
