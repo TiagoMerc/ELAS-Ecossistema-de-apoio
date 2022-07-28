@@ -18,6 +18,7 @@ function EntendaMelhor() {
         "0 170px 30px 170px",
       ]}
       mt={["30px", "30px", "30px", "50px"]}
+      mb={["30px", "30px", "30px", "150px"]}
     >
       <Heading
         as="h2"

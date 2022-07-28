@@ -4,6 +4,7 @@ import Blog from "./Blog";
 import Oquee from "./Oquee";
 import ComoFunciona from "./ComoFunciona";
 import EntendaMelhor from "./EntendaMelhor";
+import Footer from "../../components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Oquee />
       <ComoFunciona />
       <EntendaMelhor />
+      <Footer />
     </>
   );
 }
