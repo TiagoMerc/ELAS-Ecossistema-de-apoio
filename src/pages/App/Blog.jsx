@@ -25,7 +25,7 @@ function Blog() {
         fontSize={["4xl", "4xl", "4xl", "40px"]}
         lineHeight={["4xl", "4xl", "4xl", "53px"]}
         color="#5F40A6"
-        alignSelf="flex-start"
+        alignSelf={["flex-start"]}
         mb={["30px", "30px", "30px", "40px", "67px"]}
       >
         Blog
@@ -33,7 +33,7 @@ function Blog() {
       <Box
         display={["flex", "flex", "grid"]}
         flexWrap="wrap"
-        w="100%"
+        w={["100%"]}
         gridTemplateColumns="minmax(300px,870px) 331px"
         gridTemplateRows="1fr 1fr"
         alignContent="space-between"
@@ -46,7 +46,7 @@ function Blog() {
           maxW="809px"
           gridRow="1/3"
           height="365px"
-          w="100%"
+          w={["100%"]}
           destaque
         />
         <Artigo

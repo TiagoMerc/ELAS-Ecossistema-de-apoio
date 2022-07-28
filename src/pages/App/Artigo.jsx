@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading } from "@chakra-ui/react";
-import PropTypes from "prop-types";
+import PropTypes, { string } from "prop-types";
 
 function Artigo({
   imagem,
@@ -51,13 +51,13 @@ Artigo.propTypes = {
   maxW: PropTypes.string.isRequired,
   gridRow: PropTypes.string.isRequired,
   height: PropTypes.string.isRequired,
-  w: PropTypes.string.isRequired,
-  alignSelf: PropTypes.string,
+  w: PropTypes.arrayOf(string).isRequired,
+  alignSelf: PropTypes.arrayOf(string),
   destaque: PropTypes.bool,
 };
 
 Artigo.defaultProps = {
-  alignSelf: "unset",
+  alignSelf: ["unset"],
   destaque: false,
 };
 
