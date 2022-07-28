@@ -3,6 +3,7 @@ import Header from "./Header";
 import Blog from "./Blog";
 import Oquee from "./Oquee";
 import ComoFunciona from "./ComoFunciona";
+import EntendaMelhor from "./EntendaMelhor";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Blog />
       <Oquee />
       <ComoFunciona />
+      <EntendaMelhor />
     </>
   );
 }
