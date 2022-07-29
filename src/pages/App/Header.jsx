@@ -9,6 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
+import { motion } from "framer-motion";
 import MenuMobile from "../../components/MenuMobile";
 import MyMenu from "../../components/MyMenu";
 import BoxContent from "./BoxContent";
@@ -77,14 +78,22 @@ function Header() {
           maxWidth="509px"
           w={["70%", "75%", "50%"]}
           marginBottom={["15px", "25px", "0"]}
+          as={motion.div}
+          initial={{ opacity: 0, scale: 0.5, x: -200 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            x: 0,
+          }}
+          transition="200ms ease"
         >
           <Heading
-            as="h1"
             fontWeight="700"
             fontSize={["3xl", "3xl", "3xl", "3xl", "48px"]}
             lineHeight={["3xl", "3xl", "3xl", "3xl", "64px"]}
             color="white"
             mb={["10px", "20px", "5px", "30px"]}
+            as="h1"
           >
             <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
               Lorem Ipsum is simply dummy text of the printin text lorem
@@ -112,6 +121,14 @@ function Header() {
           position="relative"
           display="grid"
           placeItems="center"
+          as={motion.div}
+          initial={{ opacity: 0, scale: 0.5, rotate: 180 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            rotate: 0,
+          }}
+          transition="200ms ease"
         >
           <Image
             src={woman}
@@ -120,6 +137,9 @@ function Header() {
             maxW={["300px", "300px", "400px", "400px", "627px"]}
             h={["218px", "218px", "291px", "291px", "456px"]}
             top={["0px", "32px", "39px"]}
+            as={motion.img}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
           />
         </Box>
       </Container>
@@ -141,6 +161,14 @@ function Header() {
         transform="translate(50%)"
         bottom={["-460px", "-400px", "-215px", "-220px", "-160px"]}
         zIndex="2"
+        as={motion.div}
+        initial={{ opacity: 0, scale: 0.5, x: "50%", y: 200 }}
+        animate={{
+          opacity: 1,
+          scale: 1,
+          y: 0,
+        }}
+        transition="200ms ease"
       >
         <BoxContent
           title="Lorem"

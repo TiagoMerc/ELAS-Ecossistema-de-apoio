@@ -1,5 +1,6 @@
 import { Box, Button, Container, Heading } from "@chakra-ui/react";
 import React from "react";
+import { motion } from "framer-motion";
 import Artigo from "./Artigo";
 import artigodestaque from "../../images/artigodestaque.png";
 import artigo2 from "../../images/artigo2.png";
@@ -72,7 +73,6 @@ function Blog() {
         />
       </Box>
       <Button
-        as="a"
         href="#"
         mt={["30px", "30px", "30px", "50px", "70px"]}
         borderRadius="0"
@@ -83,6 +83,8 @@ function Blog() {
         fontWeight="700"
         fontSize="24px"
         lineHeight="29px"
+        as={motion.a}
+        whileHover={{ scale: 1.1 }}
       >
         Ver mais
       </Button>
