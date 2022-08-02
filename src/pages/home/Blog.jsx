@@ -1,6 +1,7 @@
-import { Box, Button, Container, Heading } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
+import { Box, Button, Container, Heading, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import Artigo from "./Artigo";
 import artigodestaque from "../../images/artigodestaque.png";
 import artigo2 from "../../images/artigo2.png";
@@ -73,20 +74,21 @@ function Blog() {
         />
       </Box>
       <Button
-        href="#"
         mt={["30px", "30px", "30px", "50px", "70px"]}
         borderRadius="0"
-        padding="8px 26px"
         color="white"
         bg="#FE5996"
         _hover={{ bg: "#FE5996" }}
         fontWeight="700"
         fontSize="24px"
         lineHeight="29px"
-        as={motion.a}
+        as={motion.button}
         whileHover={{ scale: 1.1 }}
+        padding="0"
       >
-        Ver mais
+        <Link as={RouterLink} to="/blog" padding="8px 26px" _hover="">
+          Ver mais
+        </Link>
       </Button>
     </Container>
   );

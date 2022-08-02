@@ -9,6 +9,7 @@ import {
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -39,8 +40,9 @@ function Footer() {
       <Box display="flex" flexDir="column" mb={["30px", "30px", "0"]}>
         <Box display="flex" alignItems="center" justifyContent="space-between">
           <Box
-            as="a"
-            href="#"
+            as={RouterLink}
+            to="/"
+            _hover=""
             display="flex"
             alignItems="center"
             padding="0"
@@ -72,16 +74,17 @@ function Footer() {
         >
           Todos os direitos reservados
         </Text>
-        <Text
-          as="a"
-          href="#"
+        <Link
+          as={RouterLink}
+          to="/politica"
+          _hover=""
           fontWeight="600"
           fontSize={["md", "md", "md", "20px"]}
           lineHeight={["md", "md", "md", "27px"]}
           color="white"
         >
           Política de Privacidade
-        </Text>
+        </Link>
       </Box>
       <Box
         display="flex"
@@ -107,37 +110,40 @@ function Footer() {
             Sobre o projeto
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/quem-somos"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Quem somos
-            </Text>
+            </Link>
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/#comofunciona"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Como funciona
-            </Text>
+            </Link>
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/#entendamelhor"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Entenda melhor
-            </Text>
+            </Link>
           </ListItem>
         </UnorderedList>
         <UnorderedList
@@ -157,37 +163,40 @@ function Footer() {
             Dicas pra elas!
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/blog"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Nosso Blog
-            </Text>
+            </Link>
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/artigo1"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Artigo 1
-            </Text>
+            </Link>
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/artigo2"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Artigo 2
-            </Text>
+            </Link>
           </ListItem>
         </UnorderedList>
         <UnorderedList
@@ -207,15 +216,16 @@ function Footer() {
             Tire suas dúvidas
           </ListItem>
           <ListItem mb="7px">
-            <Text
-              as="a"
-              href="#"
+            <Link
+              as={RouterLink}
+              to="/contato"
+              _hover=""
               fontSize={["md", "md", "md", "20px"]}
               lineHeight={["md", "md", "md", "27px"]}
               color="white"
             >
               Contato
-            </Text>
+            </Link>
           </ListItem>
         </UnorderedList>
         <Box display="flex" flexDir="column" ml={["0", "0", "20px", "35px"]}>

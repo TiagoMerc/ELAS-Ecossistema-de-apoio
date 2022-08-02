@@ -7,6 +7,7 @@ function EntendaMelhor() {
   return (
     <Container
       as="section"
+      id="entendamelhor"
       display="flex"
       flexDir="column"
       maxW="100vw"

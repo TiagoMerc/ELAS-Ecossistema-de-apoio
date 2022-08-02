@@ -14,6 +14,7 @@ function ComoFunciona() {
   return (
     <Container
       as="section"
+      id="comofunciona"
       display="flex"
       flexDir="column"
       maxW="100vw"
