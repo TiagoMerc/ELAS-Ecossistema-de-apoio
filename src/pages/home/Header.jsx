@@ -17,7 +17,7 @@ import logo from "../../images/logo.svg";
 import woman from "../../images/woman.png";
 
 function Header() {
-  const mobile = useBreakpointValue({
+  const isMobile = useBreakpointValue({
     base: true,
     sm: true,
     md: false,
@@ -63,7 +63,7 @@ function Header() {
             </Text>
           </Box>
         </Box>
-        {mobile ? <MenuMobile /> : <MyMenu />}
+        {isMobile ? <MenuMobile /> : <MyMenu />}
       </Box>
       <Container
         maxW="100%"
