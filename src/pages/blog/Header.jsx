@@ -7,6 +7,7 @@ import {
   Image,
   useBreakpointValue,
 } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 import { MyMenu, MenuMobile } from "../../components";
 import Logo from "../../images/logo.svg";
 import ImageHeader from "../../images/blogheader.png";
@@ -48,6 +49,14 @@ function Header() {
           alignItems="center"
           mb={["30px", "30px", "0"]}
           mr="20px"
+          as={motion.div}
+          initial={{ opacity: 0, scale: 0.5, x: -200 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            x: 0,
+          }}
+          transition="200ms ease"
         >
           <Image
             src={Logo}
@@ -92,6 +101,16 @@ function Header() {
             transform="translate(-10px)"
             maxW={["200px", "400px", "400px", "546px"]}
             zIndex="1"
+            as={motion.img}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            initial={{ opacity: 0, scale: 0.5, rotate: 180 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              rotate: 0,
+            }}
+            transition="200ms ease"
           />
         </Box>
       </Box>
