@@ -38,6 +38,7 @@ function PostSpecial() {
         justifyContent="space-between"
         alignItems="flex-end"
         mt="18px"
+        flexDir={["column", "column", "row"]}
       >
         <Link
           color="#5F40A6"

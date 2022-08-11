@@ -10,17 +10,29 @@ function Posts() {
       as="section"
       display="flex"
       maxW="100vw"
-      mt="140px"
-      padding="0 135px 0 146px"
+      mt={["80px", "80px", "140px"]}
+      padding={[
+        "0 15px 0 15px",
+        "0 15px 0 15px",
+        "0 50px 0 50px",
+        "0 50px 0 50px",
+        "0 135px 0 146px",
+      ]}
       mb="150px"
+      flexDirection={["column", "column", "row"]}
     >
       <Lateral />
-      <Box as="main" display="flex" flexDirection="column" w="60%">
+      <Box
+        as="main"
+        display="flex"
+        flexDirection="column"
+        w={["100%", "100%", "100%", "100%", "60%"]}
+      >
         <PostSpecial />
         <Box
           display="grid"
           mt="100px"
-          gridTemplateColumns="1fr 1fr"
+          gridTemplateColumns={["1fr", "1fr", "1fr 1fr"]}
           rowGap="70px"
           columnGap="28px"
         >
