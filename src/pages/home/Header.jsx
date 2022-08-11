@@ -10,8 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
-import MenuMobile from "../../components/MenuMobile";
-import MyMenu from "../../components/MyMenu";
+import { MenuMobile, MyMenu } from "../../components";
 import BoxContent from "./BoxContent";
 import logo from "../../images/logo.svg";
 import woman from "../../images/woman.png";

@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "../../components";
 import Header from "./Header";
 import Posts from "./Posts";
 
@@ -7,6 +8,7 @@ function Blog() {
     <>
       <Header />
       <Posts />
+      <Footer />
     </>
   );
 }

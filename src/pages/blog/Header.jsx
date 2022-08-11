@@ -7,8 +7,7 @@ import {
   Image,
   useBreakpointValue,
 } from "@chakra-ui/react";
-import MyMenu from "../../components/MyMenu";
-import MenuMobile from "../../components/MenuMobile";
+import { MyMenu, MenuMobile } from "../../components";
 import Logo from "../../images/logo.svg";
 import ImageHeader from "../../images/blogheader.png";
 
