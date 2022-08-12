@@ -85,16 +85,21 @@ function Page404() {
         }}
         transition="200ms ease"
       >
-        <Heading as="h2" fontSize="120px" fontWeight="700" color="#5F40A6">
+        <Heading
+          as="h2"
+          fontSize={["80px", "120px"]}
+          fontWeight="700"
+          color="#5F40A6"
+        >
           Ooops!
         </Heading>
         <Text
-          fontSize="17px"
+          fontSize={["12px", "17px"]}
           fontWeight="700"
           color="#5F40A6"
           alignSelf="flex-start"
           mt="-20px"
-          ml="13px"
+          ml={["5px", "13px"]}
         >
           404- PÁGINA NÃO EXISTE
         </Text>
