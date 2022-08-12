@@ -2,13 +2,14 @@
 import React from "react";
 import { Menu, MenuButton, MenuItem, MenuList, Button } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
+import { Link as RouterLink } from "react-router-dom";
 
 function MenuMobile(props) {
   const pages = [
-    { title: "Início", link: "#", first: true, special: true },
-    { title: "Quem Somos", link: "#" },
-    { title: "Contato", link: "#" },
-    { title: "Blog", link: "#" },
+    { title: "Início", link: "/" },
+    { title: "Quem Somos", link: "/quem-somos" },
+    { title: "Contato", link: "/contato" },
+    { title: "Blog", link: "/blog" },
   ];
 
   return (
@@ -25,7 +26,7 @@ function MenuMobile(props) {
       </MenuButton>
       <MenuList>
         {pages.map(({ title, link }) => (
-          <MenuItem key={title} as="a" href={link}>
+          <MenuItem key={title} as={RouterLink} to={link}>
             {title}
           </MenuItem>
         ))}
