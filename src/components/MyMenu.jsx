@@ -1,27 +1,28 @@
 import React from "react";
 import { Box, Link } from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 
 function MyMenu() {
   const pages = [
-    { title: "Início", link: "/", first: true, special: true },
+    { title: "Início", link: "/" },
     { title: "Quem Somos", link: "/quem-somos" },
     { title: "Contato", link: "/contato" },
     { title: "Blog", link: "/blog" },
   ];
 
+  const { pathname } = useLocation();
+
   return (
-    <Box display="flex">
-      {pages.map(({ title, link, first, special }) => (
+    <Box display="flex" gap="20px">
+      {pages.map(({ title, link }) => (
         <Link
           key={title}
           as={RouterLink}
           to={link}
-          fontWeight={special ? "600" : "400"}
+          fontWeight={link === pathname ? "600" : "400"}
           fontSize="20px"
           lineHeight="27px"
           color="white"
-          ml={first ? "0px" : "13px"}
           _hover={{ color: "#FE5996" }}
         >
           {title}
