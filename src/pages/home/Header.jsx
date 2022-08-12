@@ -10,14 +10,13 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
-import MenuMobile from "../../components/MenuMobile";
-import MyMenu from "../../components/MyMenu";
+import { MenuMobile, MyMenu } from "../../components";
 import BoxContent from "./BoxContent";
 import logo from "../../images/logo.svg";
 import woman from "../../images/woman.png";
 
 function Header() {
-  const mobile = useBreakpointValue({
+  const isMobile = useBreakpointValue({
     base: true,
     sm: true,
     md: false,
@@ -63,7 +62,7 @@ function Header() {
             </Text>
           </Box>
         </Box>
-        {mobile ? <MenuMobile /> : <MyMenu />}
+        {isMobile ? <MenuMobile /> : <MyMenu />}
       </Box>
       <Container
         maxW="100%"

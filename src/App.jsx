@@ -1,9 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Blog from "./pages/blog/Blog";
-import Contato from "./pages/contato/Contato";
-import Page404 from "./pages/Page404";
+import { Home, Contato, Blog, Page404 } from "./pages";
 
 function App() {
   return (

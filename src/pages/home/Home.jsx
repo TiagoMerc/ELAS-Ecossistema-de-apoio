@@ -4,7 +4,7 @@ import Blog from "./Blog";
 import Oquee from "./Oquee";
 import ComoFunciona from "./ComoFunciona";
 import EntendaMelhor from "./EntendaMelhor";
-import Footer from "../../components/Footer";
+import { Footer } from "../../components";
 
 function Home() {
   return (
