@@ -37,7 +37,6 @@ function Header() {
       position="relative"
       zIndex="auto"
     >
-
       {/* Header Navegação */}
       <Box display="flex" alignItems="center" justifyContent="space-between">
         <Box
@@ -66,7 +65,7 @@ function Header() {
         </Box>
         {mobile ? <MenuMobile /> : <MyMenu />}
       </Box>
-     
+
       <Container
         maxW="100%"
         padding="0"
@@ -97,15 +96,20 @@ function Header() {
             mb={["10px", "20px", "5px", "30px"]}
             as="h1"
           >
-            <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
-            Dúvidas? 
-            </Highlight>
-            <br/>
-            <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
-            Entre em contato
+            Dúvidas?
+          </Heading>
+          <Heading
+            fontWeight="700"
+            fontSize={["3xl", "3xl", "3xl", "3xl", "48px"]}
+            lineHeight={["3xl", "3xl", "3xl", "3xl", "64px"]}
+            color="white"
+            mb={["10px", "20px", "5px", "30px"]}
+            as="h1"
+          >
+            <Highlight query="contato" styles={{ color: "#FE5996" }}>
+              Entre em contato
             </Highlight>
           </Heading>
-      
         </Box>
         <Box
           ml={["0", "0", "60px", "100px", "180px", "400px"]}
