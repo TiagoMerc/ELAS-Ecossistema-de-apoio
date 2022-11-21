@@ -88,14 +88,14 @@ function Header() {
         >
           <Heading
             fontWeight="700"
-            fontSize={["3xl", "3xl", "3xl", "3xl", "48px"]}
+            fontSize={["3xl", "3xl", "3xl", "3xl", "36px"]}
             lineHeight={["3xl", "3xl", "3xl", "3xl", "64px"]}
             color="white"
             mb={["10px", "20px", "5px", "30px"]}
             as="h1"
           >
             <Highlight query="text lorem" styles={{ color: "#FE5996" }}>
-              Lorem Ipsum is simply dummy text of the printin text lorem
+            Hub de promoção da cultura empreendedora e tecnológica para o público feminino.
             </Highlight>
           </Heading>
           <Text
@@ -170,8 +170,8 @@ function Header() {
         transition="200ms ease"
       >
         <BoxContent
-          title="Lorem"
-          text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          title="Compartilhar"
+          text="Compartilhamos soluções desenvolvidas e lideradas por mulheres."
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
@@ -183,8 +183,8 @@ function Header() {
           margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
-          title="Lorem"
-          text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          title="Impulsionar"
+          text="Impulsionamos startups e mulheres empreendedoras."
         />
         <Divider
           orientation={["horizontal", "horizontal", "vertical"]}
@@ -196,8 +196,8 @@ function Header() {
           margin={["20px 0", "20px 0", "0 40px"]}
         />
         <BoxContent
-          title="Lorem"
-          text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          title="Desenvolver"
+          text="Desenvolvemos o potencial feminino, quanto em negócios e tecnologia."
         />
       </Container>
       <Box
