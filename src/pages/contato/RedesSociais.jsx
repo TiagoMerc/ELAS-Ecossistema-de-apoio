@@ -37,7 +37,7 @@ function RedesSociais() {
         fontSize={["4xl", "4xl", "4xl", "40px"]}
         lineHeight={["4xl", "4xl", "4xl", "53px"]}
       >
-        Ou acesses nossas <br/>redes sociais
+        Ou acesse o nosso <br/>Instagram
       </Heading>
       <Text
         color="#5F40A6"
@@ -48,9 +48,23 @@ function RedesSociais() {
         textAlign="justify"
         mb="30px"
       >
-       O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. 
-       O Lorem Ipsum tem vindo a ser o texto padrão usado por estas 
-       indústrias desde o ano de 1500, quando uma misturou os 
+       Estamos no Instagram para que você participe e esteja próxima do Ecossistema. 
+
+      <Text fontWeight="700">TODXS SÃO BEM-VINDXS</Text>
+
+      Nosso compromisso é promover um Ecossistema seguro e acolhedor para todxs.
+
+      <Text fontWeight="700">EXPLORE AS NOVIDADES</Text>
+
+      Podemos oferecer para você novidades sobre negócios e tecnologia. 
+
+      <Text fontWeight="700">DESTAQUE-SE NO ECOSSISTEMA</Text>
+
+      Conecte-se com mulheres empreendedoras, aumente sua influência e participe de uma rede de apoio.
+
+      <Text fontWeight="700">CRESÇA CONOSCO</Text>
+
+      Compartilhe e expanda seu potencial em nossso Ecossistema.
       </Text>
       <Box
         display='flex'
@@ -63,7 +77,7 @@ function RedesSociais() {
         alt="Icone da rede social Instagram"
         w="27.5px" 
         />
-        <Image 
+        {/* <Image 
         src={TikTokIcon}
         alt="Icone da rede social TikTok"
         w="27.5px" 
@@ -77,7 +91,7 @@ function RedesSociais() {
         src={FacebookIcon}
         alt="Icone da rede social Facebook"
         w="27.5px" 
-        />
+        /> */}
       </Box>
     </Box>
     <Box 
