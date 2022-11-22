@@ -58,7 +58,7 @@ function Footer() {
                 color="white"
                 lineHeight="1"
               >
-                Elas
+                ELAS
               </Heading>
               <Text fontSize="12px" color="white">
                 Ecossistema de apoio
@@ -107,7 +107,7 @@ function Footer() {
             color="white"
             mb="7px"
           >
-            Sobre o projeto
+            Sobre o hub
           </ListItem>
           <ListItem mb="7px">
             <Link
@@ -160,7 +160,7 @@ function Footer() {
             color="white"
             mb="7px"
           >
-            Dicas pra elas!
+            Dicas pra ELAS!
           </ListItem>
           <ListItem mb="7px">
             <Link
