@@ -246,10 +246,10 @@ function Footer() {
             color="white"
             mb="17px"
           >
-            projetoelas@elas.com.br
+            elas.ecossistema@gmail.com
           </Text>
           <Box display="flex">
-            <Link href="#instagram">
+            <Link href="https://www.instagram.com/elas.ecossistema/">
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"
