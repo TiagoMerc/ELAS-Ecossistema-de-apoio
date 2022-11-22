@@ -47,7 +47,7 @@ function Blog() {
       >
         <Artigo
           imagem={artigodestaque}
-          title="Artigo destaque do blog"
+          title="Sobre o ELAS"
           maxW="809px"
           gridRow="1/3"
           height="365px"
@@ -56,7 +56,7 @@ function Blog() {
         />
         <Artigo
           imagem={artigo2}
-          title="Artigo 2"
+          title="FemTech"
           w={["45%", "47%", "unset"]}
           maxW="331px"
           gridRow="1/2"
@@ -65,7 +65,7 @@ function Blog() {
         />
         <Artigo
           imagem={artigo3}
-          title="Artigo 3"
+          title="Metodologia"
           w={["45%", "47%", "100%"]}
           maxW="331px"
           gridRow="2/3"

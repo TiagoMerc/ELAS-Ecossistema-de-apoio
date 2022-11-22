@@ -23,7 +23,7 @@ function Post() {
             Categoria 2
           </Link>
           <Text textTransform="uppercase" fontSize="16px" color="#5F40A6">
-            16 DE SET
+            22 DE NOV
           </Text>
         </Box>
         <Link
@@ -33,12 +33,11 @@ function Post() {
           fontSize="26px"
           color="#5F40A6"
         >
-          Nome do post
+          FemTech
         </Link>
         <Text mt="14px" size="lg" color="#5F40A6" textAlign="justify">
-          O Lorem Ipsum é um texto modelo da indústria tipográfica e de
-          impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
-          estas indústrias desde o ano de 1500.
+        São empresas — geralmente startups — que por meio da tecnologia procuram resolver 
+        problemas relativos ao universo feminino ou facilitar o dia a dia das mulheres.
         </Text>
       </Box>
     </Box>

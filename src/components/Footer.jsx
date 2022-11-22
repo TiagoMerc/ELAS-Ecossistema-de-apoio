@@ -257,7 +257,7 @@ function Footer() {
                 cursor="pointer"
               />
             </Link>
-            <Link href="#tiktok" ml="24px">
+            {/* <Link href="#tiktok" ml="24px">
               <FontAwesomeIcon
                 icon={faTiktok}
                 size="2x"
@@ -280,7 +280,7 @@ function Footer() {
                 color="#fff"
                 cursor="pointer"
               />
-            </Link>
+            </Link> */}
           </Box>
         </Box>
       </Box>

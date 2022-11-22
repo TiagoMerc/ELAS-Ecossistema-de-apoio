@@ -54,7 +54,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Section 1 title
+                Tecnologia
               </Box>
             </AccordionButton>
           </h3>
@@ -65,10 +65,8 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Apoio, desenvolvimento e manutenção de negócios usando tecnologia como instrumento.
+
           </AccordionPanel>
         </AccordionItem>
 
@@ -88,7 +86,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Section 2 title
+                Ecossistema
               </Box>
             </AccordionButton>
           </h3>
@@ -99,10 +97,10 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            O hub de inovação tem o foco de impulsionar negócios inovadores. As atividades são direcionadas 
+            ao público da região de Diamantina, de modo a gerar inovação por meio de uma rede integrada com a realidade local.
+            Quando startups/mulheres participam do hub de inovação, elas vão está em contato diretamente com os demais agentes do ecossistema local.
+             São empresas de médio e grande porte, investidores, além de instituições de ensino e profissionais especialistas em diversas frentes.
           </AccordionPanel>
         </AccordionItem>
 
@@ -122,7 +120,7 @@ function ComoFunciona() {
                 lineHeight={["md", "md", "md", "32px"]}
                 color="white"
               >
-                Section 3 title
+                Interação
               </Box>
             </AccordionButton>
           </h3>
@@ -133,10 +131,7 @@ function ComoFunciona() {
             lineHeight={["md", "md", "md", "32px"]}
             color="white"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Ampliação de oportunidades com a interação dos atores da Tríplice Hélice, com governo, empresas e universidade.
           </AccordionPanel>
         </AccordionItem>
       </Accordion>

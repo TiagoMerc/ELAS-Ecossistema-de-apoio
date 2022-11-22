@@ -48,14 +48,14 @@ function PostSpecial() {
           lineHeight="43px"
           href="#artigo"
         >
-          Artigo destaque do blog
+          Sobre o ELAs
         </Link>
         <Box display="flex" gap="15px">
           <Text color="#5F40A6" fontWeight="700" size="sm">
-            abril/27,2022
+            22/11/2022
           </Text>
           <Text color="#5F40A6" fontWeight="700" size="sm">
-            14:00
+            18:00
           </Text>
         </Box>
       </Box>

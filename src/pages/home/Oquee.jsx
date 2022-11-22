@@ -57,7 +57,7 @@ function Oquee() {
           textAlign="justify"
           mb="10px"
         >
-          Explicação item 1
+          <Text fontWeight="700">Missão</Text> Promover a cultura empreendedora, desenvolver soluções utilizando tecnologia e manter negócios liderados por mulheres.
         </Text>
         <Text
           color="#5F40A6"
@@ -68,7 +68,7 @@ function Oquee() {
           textAlign="justify"
           mb="10px"
         >
-          Explicação item 2
+           <Text fontWeight="700">Visão</Text>Criar um ecossistema tecnológico e de inovação para apoiar mulheres.
         </Text>
         <Text
           color="#5F40A6"
@@ -79,7 +79,8 @@ function Oquee() {
           textAlign="justify"
           mb={["30px", "30px", "30px", "10px"]}
         >
-          Explicação item 3
+           <Text fontWeight="700"> Impacto Social</Text> O ELAS é um ecossistema que permite mostrar o potencial das mulheres ao desenvolverem, apoiarem e manterem novos negócios
+           usando tecnologia, independentemente de sua origem, raça ou etnia.
         </Text>
       </Box>
       <Image
